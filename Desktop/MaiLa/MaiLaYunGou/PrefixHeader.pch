@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  Craftsman
+//
+//  Created by Luffy on 16/12/6.
+//  Copyright © 2016年 Luffy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define Font(size) [UIFont systemFontOfSize:size]
+
+#import "UIColor+UIColorExtension.h"
+
+#define trace(...) NSLog(__VA_ARGS__)
+#define __init_frame(classRef, frame) [[classRef alloc] initWithFrame:frame]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

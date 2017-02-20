@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HotGoodTableViewCell" id="YAh-t9-mDA" customClass="HotGoodTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YAh-t9-mDA" id="QhR-P8-c0Y">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dianpu6.png" translatesAutoresizingMaskIntoConstraints="NO" id="uM8-ax-1n0">
+                        <rect key="frame" x="10" y="12" width="95" height="95"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="华为Mate 9 Pro 4GB＋64GB 华为手机 1600W柔光双摄 照亮你的美" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5g-3V-roC">
+                        <rect key="frame" x="111" y="8" width="204" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="qNd-c2-yST"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpb-uO-2PJ">
+                        <rect key="frame" x="111" y="61" width="12" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="0.31372549019607843" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.98" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HY3-a0-Vfq">
+                        <rect key="frame" x="123" y="58" width="55" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="GPt-IO-wNa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                        <color key="textColor" red="1" green="0.31372549020000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已售：1234" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKb-RL-tG5">
+                        <rect key="frame" x="276" y="60" width="91" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6by-L9-2ke"/>
+                            <constraint firstAttribute="width" constant="91" id="cpb-fa-s63"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="市场价：124" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S26-6a-m84">
+                        <rect key="frame" x="179" y="60" width="93" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="93" id="A1z-q4-TdW"/>
+                            <constraint firstAttribute="height" constant="21" id="Qud-Lf-HQz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="已售：1234" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AV1-FP-DnQ">
+                        <rect key="frame" x="111" y="34" width="256" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;500m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnc-6a-MBs">
+                        <rect key="frame" x="316" y="12" width="55" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="Zau-nU-4yY"/>
+                            <constraint firstAttribute="height" constant="21" id="qIy-JS-MMv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Vs-Ds-p1i">
+                        <rect key="frame" x="113" y="86" width="23" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7KZ-sS-Qat" customClass="StarView">
+                        <rect key="frame" x="144" y="87" width="186" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m5g-3V-roC" firstAttribute="leading" secondItem="QhR-P8-c0Y" secondAttribute="leadingMargin" constant="103" id="1Fd-i0-YBP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZKb-RL-tG5" secondAttribute="trailing" id="1oW-tz-quy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="m5g-3V-roC" secondAttribute="trailing" constant="52" id="G07-ne-TLb"/>
+                    <constraint firstItem="HY3-a0-Vfq" firstAttribute="top" secondItem="QhR-P8-c0Y" secondAttribute="topMargin" constant="50" id="H8c-pI-Fia"/>
+                    <constraint firstItem="wnc-6a-MBs" firstAttribute="top" secondItem="QhR-P8-c0Y" secondAttribute="topMargin" constant="4" id="IyK-cp-eJy"/>
+                    <constraint firstItem="HY3-a0-Vfq" firstAttribute="leading" secondItem="QhR-P8-c0Y" secondAttribute="leadingMargin" constant="115" id="K0C-9B-4sQ"/>
+                    <constraint firstItem="S26-6a-m84" firstAttribute="top" secondItem="QhR-P8-c0Y" secondAttribute="topMargin" constant="52" id="OGc-R9-fMz"/>
+                    <constraint firstItem="ZKb-RL-tG5" firstAttribute="top" secondItem="QhR-P8-c0Y" secondAttribute="topMargin" constant="52" id="TEy-UF-uX7"/>
+                    <constraint firstAttribute="topMargin" secondItem="m5g-3V-roC" secondAttribute="top" id="ZyE-Sb-ea8"/>
+                    <constraint firstItem="S26-6a-m84" firstAttribute="leading" secondItem="HY3-a0-Vfq" secondAttribute="trailing" constant="1" id="wGo-Bt-IQW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wnc-6a-MBs" secondAttribute="trailing" constant="-4" id="wVe-Sy-2m7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countLabel" destination="ZKb-RL-tG5" id="wv6-Ao-sx9"/>
+                <outlet property="goodNameLabel" destination="AV1-FP-DnQ" id="Bxu-zc-dGH"/>
+                <outlet property="icomImage" destination="uM8-ax-1n0" id="JrU-xq-mQy"/>
+                <outlet property="marketLabel" destination="S26-6a-m84" id="9zh-P6-V92"/>
+                <outlet property="nameLabel" destination="m5g-3V-roC" id="4dP-zz-HtT"/>
+                <outlet property="priceLabel" destination="HY3-a0-Vfq" id="WKs-cP-Mqu"/>
+                <outlet property="starview" destination="7KZ-sS-Qat" id="aHw-au-cah"/>
+            </connections>
+            <point key="canvasLocation" x="13.5" y="-31"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dianpu6.png" width="95" height="95"/>
+        <image name="fan.png" width="25" height="15"/>
+    </resources>
+</document>
